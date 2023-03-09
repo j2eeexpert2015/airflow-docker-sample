@@ -1,0 +1,7 @@
+# Create a venv
+python -m venv venv
+# Add the venv to your path
+#source venv/bin/activate
+venv\Scipts\activate
+# Install all of the python modules that are used in the Docker container
+pip install -r requirements.txt
