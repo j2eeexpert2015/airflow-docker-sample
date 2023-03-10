@@ -9,7 +9,7 @@ from airflow.operators import bash
 YESTERDAY = datetime.datetime.now() - datetime.timedelta(days=1)
 
 default_args = {
-    'owner': 'Composer Example',
+    'owner': 'DAG Example',
     'depends_on_past': False,
     'email': [''],
     'email_on_failure': False,
